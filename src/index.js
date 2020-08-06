@@ -18,6 +18,7 @@ db.on('error', err => {
 db.once('open', () => {
     console.log('Connected to the DB...');
     app.use(morgan('dev'));
+    app.use(express.static(path.join(__dirname, './views')));
     app.use(express.json());
     mountApp(app);
 });
