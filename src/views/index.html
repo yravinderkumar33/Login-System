@@ -15,7 +15,7 @@ GET /me - fetch a user information by passing Authorization header (needs to pas
 <a class=text-success data-toggle=collapse data-parent=#accordion-Ungrouped href=#collapse-Ungrouped-createuser><h4 class=panel-title><span class="glyphicon glyphicon-plus"></span><strong>create user</strong> &nbsp;|&nbsp;
 <strong class="request-method border-success">POST</strong>
 &nbsp;
-http://localhost:4000/register</h4></a></div><div id=collapse-Ungrouped-createuser class="panel-collapse collapse"><div class=panel-body><h5 class="label label-primary">Body</h5><span class=resp-prettyprint>{
+https://calm-forest-38165.herokuapp.com/register</h4></a></div><div id=collapse-Ungrouped-createuser class="panel-collapse collapse"><div class=panel-body><h5 class="label label-primary">Body</h5><span class=resp-prettyprint>{
 &#34;request&#34;: {
 &#34;user&#34;: {
 &#34;email&#34;: &#34;testuser@gmail.com&#34;,
@@ -28,21 +28,21 @@ http://localhost:4000/register</h4></a></div><div id=collapse-Ungrouped-createus
 <a class=text-danger data-toggle=collapse data-parent=#accordion-Ungrouped href=#collapse-Ungrouped-deleteuser><h4 class=panel-title><span class="glyphicon glyphicon-plus"></span><strong>delete user</strong> &nbsp;|&nbsp;
 <strong class="request-method border-danger">DELETE</strong>
 &nbsp;
-http://localhost:4000/user/5f2add284e310b15ec972040</h4></a></div><div id=collapse-Ungrouped-deleteuser class="panel-collapse collapse"><div class=panel-body><h5 class="label label-primary">Body</h5><span class=resp-prettyprint>{
+https://calm-forest-38165.herokuapp.com/user/5f2add284e310b15ec972040</h4></a></div><div id=collapse-Ungrouped-deleteuser class="panel-collapse collapse"><div class=panel-body><h5 class="label label-primary">Body</h5><span class=resp-prettyprint>{
 &#34;email&#34;: &#34;yravinderkumar33@gmail.com&#34;,
 &#34;password&#34;: &#34;test@123&#34;
 }</span><div class=clearfix></div></div></div></div><div class="panel panel-info" id=jump-Ungrouped-fetchuserbyid><div class=panel-heading><small class="pull-right text-muted">raw</small>
 <a class=text-info data-toggle=collapse data-parent=#accordion-Ungrouped href=#collapse-Ungrouped-fetchuserbyid><h4 class=panel-title><span class="glyphicon glyphicon-plus"></span><strong>fetch user by id</strong> &nbsp;|&nbsp;
 <strong class="request-method border-info">GET</strong>
 &nbsp;
-http://localhost:4000/user/5f2acfbf881eb813c245c0b6</h4></a></div><div id=collapse-Ungrouped-fetchuserbyid class="panel-collapse collapse"><div class=panel-body><h5 class="label label-primary">Body</h5><span class=resp-prettyprint>{
+https://calm-forest-38165.herokuapp.com/user/5f2acfbf881eb813c245c0b6</h4></a></div><div id=collapse-Ungrouped-fetchuserbyid class="panel-collapse collapse"><div class=panel-body><h5 class="label label-primary">Body</h5><span class=resp-prettyprint>{
 &#34;email&#34;: &#34;yravinderkumar33@gmail.com&#34;,
 &#34;password&#34;: &#34;test@123&#34;
 }</span><div class=clearfix></div></div></div></div><div class="panel panel-info" id=jump-Ungrouped-getuserbyjwt><div class=panel-heading><small class="pull-right text-muted">raw</small>
 <a class=text-info data-toggle=collapse data-parent=#accordion-Ungrouped href=#collapse-Ungrouped-getuserbyjwt><h4 class=panel-title><span class="glyphicon glyphicon-plus"></span><strong>get user by jwt</strong> &nbsp;|&nbsp;
 <strong class="request-method border-info">GET</strong>
 &nbsp;
-http://localhost:4000/me</h4></a></div><div id=collapse-Ungrouped-getuserbyjwt class="panel-collapse collapse"><div class=panel-body><h5 class="label label-warning">Headers</h5><table class="table table-hover"><thead><tr><th>Key<th>Value<th>Description<tbody><tr><td>Authorization<td>Bearers eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1OTY3MDU5NTksImRhdGEiOiI1ZjJiODljY2ExMDhkYjE1NDM2ZWJkMzciLCJpYXQiOjE1OTY3MDIzNTl9.aVcOHN7SkBGFtKoTIKLer2AX2jMGNAP69C32vXr_qqw<td></table><h5 class="label label-primary">Body</h5><span class=resp-prettyprint>{
+https://calm-forest-38165.herokuapp.com/me</h4></a></div><div id=collapse-Ungrouped-getuserbyjwt class="panel-collapse collapse"><div class=panel-body><h5 class="label label-warning">Headers</h5><table class="table table-hover"><thead><tr><th>Key<th>Value<th>Description<tbody><tr><td>Authorization<td>Bearers eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1OTY3MDU5NTksImRhdGEiOiI1ZjJiODljY2ExMDhkYjE1NDM2ZWJkMzciLCJpYXQiOjE1OTY3MDIzNTl9.aVcOHN7SkBGFtKoTIKLer2AX2jMGNAP69C32vXr_qqw<td></table><h5 class="label label-primary">Body</h5><span class=resp-prettyprint>{
 &#34;request&#34;: {
 &#34;user&#34;: {
 &#34;gender&#34;: &#34;female&#34;,
@@ -52,18 +52,18 @@ http://localhost:4000/me</h4></a></div><div id=collapse-Ungrouped-getuserbyjwt c
 }</span><div class=clearfix></div></div></div></div><div class="panel panel-info" id=jump-Ungrouped-listallusers><div class=panel-heading><small class="pull-right text-muted"></small><a class=text-info data-toggle=collapse data-parent=#accordion-Ungrouped href=#collapse-Ungrouped-listallusers><h4 class=panel-title><span class="glyphicon glyphicon-plus"></span><strong>list all users</strong> &nbsp;|&nbsp;
 <strong class="request-method border-info">GET</strong>
 &nbsp;
-http://localhost:4000/users</h4></a></div><div id=collapse-Ungrouped-listallusers class="panel-collapse collapse"><div class=panel-body></div></div></div><div class="panel panel-success" id=jump-Ungrouped-login><div class=panel-heading><small class="pull-right text-muted">raw</small>
+https://calm-forest-38165.herokuapp.com/users</h4></a></div><div id=collapse-Ungrouped-listallusers class="panel-collapse collapse"><div class=panel-body></div></div></div><div class="panel panel-success" id=jump-Ungrouped-login><div class=panel-heading><small class="pull-right text-muted">raw</small>
 <a class=text-success data-toggle=collapse data-parent=#accordion-Ungrouped href=#collapse-Ungrouped-login><h4 class=panel-title><span class="glyphicon glyphicon-plus"></span><strong>login</strong> &nbsp;|&nbsp;
 <strong class="request-method border-success">POST</strong>
 &nbsp;
-http://localhost:4000/login</h4></a></div><div id=collapse-Ungrouped-login class="panel-collapse collapse"><div class=panel-body><h5 class="label label-primary">Body</h5><span class=resp-prettyprint>{
+https://calm-forest-38165.herokuapp.com/login</h4></a></div><div id=collapse-Ungrouped-login class="panel-collapse collapse"><div class=panel-body><h5 class="label label-primary">Body</h5><span class=resp-prettyprint>{
 &#34;email&#34;: &#34;testemail@gmail.com&#34;,
 &#34;password&#34;: &#34;test@123&#34;
 }</span><div class=clearfix></div></div></div></div><div class="panel panel-warning" id=jump-Ungrouped-updateuser><div class=panel-heading><small class="pull-right text-muted">raw</small>
 <a class=text-warning data-toggle=collapse data-parent=#accordion-Ungrouped href=#collapse-Ungrouped-updateuser><h4 class=panel-title><span class="glyphicon glyphicon-plus"></span><strong>update user</strong> &nbsp;|&nbsp;
 <strong class="request-method border-warning">PATCH</strong>
 &nbsp;
-http://localhost:4000/user/5f2acfbf881eb813c245c0b6</h4></a></div><div id=collapse-Ungrouped-updateuser class="panel-collapse collapse"><div class=panel-body><h5 class="label label-primary">Body</h5><span class=resp-prettyprint>{
+https://calm-forest-38165.herokuapp.com/user/5f2acfbf881eb813c245c0b6</h4></a></div><div id=collapse-Ungrouped-updateuser class="panel-collapse collapse"><div class=panel-body><h5 class="label label-primary">Body</h5><span class=resp-prettyprint>{
 &#34;request&#34;: {
 &#34;user&#34;: {
 &#34;gender&#34;: &#34;female&#34;,
@@ -77,4 +77,4 @@ if(IsJsonString(html)){var obj=JSON.parse(html);var formattedJson=JSON.stringify
 function IsJsonString(str){try{JSON.parse(str);}catch(e){return false;}
 return true;}
 String.prototype.replaceAll=function(replaceThis,withThis){var re=new RegExp(RegExp.quote(replaceThis),"g");return this.replace(re,withThis);};RegExp.quote=function(str){return str.replace(/([.?*+^$[\]\\(){}-])/g,"\\$1");};function syntaxHighlight(json){json=json.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g,function(match){var cls='number';if(/^"/.test(match)){if(/:$/.test(match)){cls='key';}else{cls='string';}}else if(/true|false/.test(match)){cls='boolean';}else if(/null/.test(match)){cls='null';}
-return '<span class="'+cls+'">'+match+'</span>';});}</script><br><br><footer class="navbar-default navbar-fixed-bottom"><div class=container-fluid><div class="span12 text-center"><span data-toggle=tooltip title="If the application help you, please feel free to give a star to the project in github. Your star inspire me to work more on open-source projects like this!">Made with <em class=love-color>&#9829;</em> by <a href=https://github.com/thedevsaddam target=_blank class=text-muted>thedevsaddam</a> | Generated at: 2020-08-06 14:46:49 by <a href=https://github.com/thedevsaddam/docgen target=_blank class=text-muted>docgen</a></span></div></div></footer>
+return '<span class="'+cls+'">'+match+'</span>';});}</script><br><br><footer class="navbar-default navbar-fixed-bottom"><div class=container-fluid><div class="span12 text-center"><span data-toggle=tooltip title="If the application help you, please feel free to give a star to the project in github. Your star inspire me to work more on open-source projects like this!">Made with <em class=love-color>&#9829;</em> by <a href=https://github.com/thedevsaddam target=_blank class=text-muted>thedevsaddam</a> | Generated at: 2020-08-06 15:36:41 by <a href=https://github.com/thedevsaddam/docgen target=_blank class=text-muted>docgen</a></span></div></div></footer>
