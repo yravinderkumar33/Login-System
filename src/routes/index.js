@@ -1,8 +1,10 @@
-const { login, register, me, deleteUser, updateUser, fetchUserById } = require('../controllers');
+const { login, register, me, deleteUser, updateUser, fetchUserById, getAllUsers } = require('../controllers');
 const asyncErrorHandler = require('../helpers/asyncErrorHandler');
 const { get } = require('lodash');
 const { loginValidator, updateUserValidator } = require('../validators/user');
 module.exports = app => {
+
+    app.get('/users', asyncErrorHandler(getAllUsers))
 
     app.post('/register', asyncErrorHandler(register));
 

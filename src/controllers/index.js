@@ -5,5 +5,6 @@ module.exports = {
     me: require('./user/me'),
     deleteUser: require('./user/deleteUser'),
     updateUser: require('./user/updateUser'),
-    fetchUserById: require('./user/fetchUserById')
+    fetchUserById: require('./user/fetchUserById'),
+    getAllUsers: require('./user/getAllUsers')
 }
