@@ -24,4 +24,12 @@ module.exports = app => {
             result: {}
         })
     })
+    
+    app.all("*", (req, res) => {
+        res.json({
+            status: "failed",
+            result: {},
+            err: "route not found"
+        })
+    })
 }
